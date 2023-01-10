@@ -36,4 +36,4 @@ jobs:
     - name: Release
       env:
         NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
-      run: dotnet nuget push ./Interop.Stdlib/bin/Release/Ekeel.Interop.Stdlib.1.0.1.nupkg --api-key $NUGET_API_KEY --source https://api.nuget.org/v3/index.json
+      run: dotnet nuget push ./Interop.Stdlib/bin/Release/Ekeel.Interop.Stdlib.$PACKAGE_VERSION.nupkg --api-key $NUGET_API_KEY --source https://api.nuget.org/v3/index.json
