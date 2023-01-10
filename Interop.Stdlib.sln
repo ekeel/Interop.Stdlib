@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ekeel.Interop.Stdlib", "Interop.Stdlib\Ekeel.Interop.Stdlib.csproj", "{118DA629-09B1-48FA-8244-A51C59B8B13E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{A9795DC1-28A6-4E40-8E52-F424B5A271EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{118DA629-09B1-48FA-8244-A51C59B8B13E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118DA629-09B1-48FA-8244-A51C59B8B13E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118DA629-09B1-48FA-8244-A51C59B8B13E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118DA629-09B1-48FA-8244-A51C59B8B13E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9795DC1-28A6-4E40-8E52-F424B5A271EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9795DC1-28A6-4E40-8E52-F424B5A271EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9795DC1-28A6-4E40-8E52-F424B5A271EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9795DC1-28A6-4E40-8E52-F424B5A271EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61E2D5C6-7AAD-442C-A1DD-6A4CE6FEECA2}
+	EndGlobalSection
+EndGlobal
