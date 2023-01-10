@@ -1,14 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
-    <SynchReleaseVersion>false</SynchReleaseVersion>
-
-    <PackageId>Ekeel.Interop.Stdlib</PackageId>
-  </PropertyGroup>
-
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Version>1.0.1</Version>
+		<SynchReleaseVersion>false</SynchReleaseVersion>
+		<PackageId>Ekeel.Interop.Stdlib</PackageId>
+		<PackageLicenseFile>license.txt</PackageLicenseFile>
+		<!--<PackageLicenseExpression>MIT</PackageLicenseExpression>-->
+	</PropertyGroup>
+	<ItemGroup>
+		<None Update="license.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="license.txt" Pack="true" PackagePath="license.txt" />
+		<None Include="../README.md" Pack="true" PackagePath="README.md" />
+	</ItemGroup>
+	<ItemGroup>
+	</ItemGroup>
 </Project>
