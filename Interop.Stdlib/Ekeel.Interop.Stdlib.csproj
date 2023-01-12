@@ -4,10 +4,6 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<SynchReleaseVersion>false</SynchReleaseVersion>
-		<PackageId>Ekeel.Interop.Stdlib</PackageId>
-		<PackageLicenseFile>license.txt</PackageLicenseFile>
-		<!--<PackageLicenseExpression>MIT</PackageLicenseExpression>-->
 	</PropertyGroup>
 	<PropertyGroup>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
