@@ -4,21 +4,30 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>1.0.2</Version>
 		<SynchReleaseVersion>false</SynchReleaseVersion>
 		<PackageId>Ekeel.Interop.Stdlib</PackageId>
 		<PackageLicenseFile>license.txt</PackageLicenseFile>
 		<!--<PackageLicenseExpression>MIT</PackageLicenseExpression>-->
 	</PropertyGroup>
+	<PropertyGroup>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>Ekeel.Interop.Stdlib</PackageId>
+		<Description>A set of core modules for use in other Ekeel.Interop packages.</Description>
+		<Authors>ekeel</Authors>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Version>1.0.3</Version>
+		<SynchReleaseVersion>false</SynchReleaseVersion>
+		<PackageProjectUrl>https://github.com/ekeel/Interop.Stdlib</PackageProjectUrl>
+		<PackageLicenseFile>license.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/ekeel/Interop.Stdlib</RepositoryUrl>
+    </PropertyGroup>
 	<ItemGroup>
-		<None Update="license.txt">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
-	</ItemGroup>
-	<ItemGroup>
-		<None Include="license.txt" Pack="true" PackagePath="license.txt" />
 		<None Include="../README.md" Pack="true" PackagePath="README.md" />
+		<None Include="../license.txt" Pack="true" PackagePath="license.txt">
+		  <Link>license.txt</Link>
+		</None>
 	</ItemGroup>
 	<ItemGroup>
 	</ItemGroup>
