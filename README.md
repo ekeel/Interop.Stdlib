@@ -4,8 +4,6 @@ A set of core modules for use in other Ekeel.Interop packages.
 
 ## `EnvLoader`
 
-### Instance Methods
-
 ### Static Methods
 
 #### `void LoadEnvFile(string path)`
@@ -22,8 +20,6 @@ A set of core modules for use in other Ekeel.Interop packages.
 > ```
 
 ## `EmbeddedResource`
-
-### Instance Methods
 
 ### Static Methods
 
